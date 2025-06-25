@@ -9,7 +9,8 @@ Primeira letra de cada linha (SOPHIA):
 
 === TESTANDO backDoorResponse ===
 Última letra de cada linha (SUMMER):
-[',', '.', ',', '.', ',', '.']
+[ 's', 's', 'h', 's', 'k', 's' ]
+
 
 Última letra com espaços removidos:
 "Hello world  " -> "d"
