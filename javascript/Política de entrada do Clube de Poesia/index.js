@@ -60,7 +60,7 @@ function runTests() {
 
   console.log('\n=== TESTANDO backDoorResponse ===');
   console.log('Última letra de cada linha (SUMMER):');
-  console.log(processPoem(SUMMER_POEM, backDoorResponse)); // [',', '.', ',', '.', ',', '.']
+  console.log(processPoem(SUMMER_POEM, backDoorResponse)); // [ 's', 's', 'h', 's', 'k', 's' ]
   
   console.log('\nÚltima letra com espaços removidos:');
   const lineWithSpaces = 'Hello world  ';
@@ -83,3 +83,4 @@ function runTests() {
 
 // Executar todos os testes
 runTests();
+
