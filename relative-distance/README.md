@@ -15,7 +15,7 @@ Esse problema é inspirado na ideia dos "seis graus de Kevin Bacon" ou do aplica
 ```js
 degreesOfSeparation(familyTree, personA, personB)
 
-
+```
 # Graus de Separação na Árvore Genealógica
 
 Esta função calcula o número mínimo de conexões (graus de separação) entre duas pessoas em uma árvore genealógica.
