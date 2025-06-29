@@ -1,63 +1,8 @@
-## Conceito Central
-Imagine que você está olhando para grades desenhadas com os caracteres **+, -, | e espaços.** Seu objetivo é contar quantos retângulos completos existem nessas grades.
+Introdução
+A maneira como medimos o tempo é meio confusa. Temos 60 segundos em um minuto e 60 minutos em uma hora. Isso vem da antiga Babilônia, onde eles usavam o 60 como base para seu sistema numérico. Temos 24 horas em um dia, 7 dias em uma semana e quantos dias em um mês? Bem, para os dias em um mês, depende não apenas do mês, mas também do tipo de calendário usado no país em que você vive.
 
-## dentificando Componentes Básicos:
+E se, em vez disso, usássemos apenas segundos para expressar intervalos de tempo? Então, poderíamos usar prefixos do sistema métrico para escrever grandes números de segundos em quantidades mais facilmente compreensíveis.
 
-**+** são os cantos do retângulo
-
-**-** formam as linhas horizontais
-
-**|** formam as linhas verticais
-
-## Verificações Necessárias:
-
-Todos os 4 cantos devem ser +
-
-As conexões horizontais entre os cantos superiores e inferiores devem ser -
-
-As conexões verticais entre os cantos laterais devem ser |
-unset username          # deletando a variável
-``` bash 
-Teste: Diagrama vazio
-Diagrama:
-Retângulos esperados: 0
-Retângulos encontrados: 0
-✅ PASSOU
-----------------------
-Teste: Retângulo de altura 1
-Diagrama:
-+--+
-+--+
-Retângulos esperados: 1
-Retângulos encontrados: 1
-✅ PASSOU
-----------------------
-Teste: Retângulo de largura 1
-Diagrama:
-++
-||
-++
-Retângulos esperados: 1
-Retângulos encontrados: 1
-✅ PASSOU
-----------------------
-Teste: Retângulo simples
-Diagrama:
-+---+
-|   |
-+---+
-Retângulos esperados: 1
-Retângulos encontrados: 1
-✅ PASSOU
-----------------------
-Teste: Retângulo sem linhas verticais
-Diagrama:
-+---+
-+---+
-Retângulos esperados: 1
-Retângulos encontrados: 1
-✅ PASSOU
-----------------------
-
-```
-
+Uma receita de comida pode explicar que você precisa deixar os brownies assando no forno por dois quilosegundos (dois mil segundos).
+Talvez você e sua família viajassem para algum lugar exótico por dois megassegundos (dois milhões de segundos).
+E se você e seu cônjuge fossem casados ​​por mil milhões de segundos, vocês celebrariam seu aniversário de um gigasegundo.
